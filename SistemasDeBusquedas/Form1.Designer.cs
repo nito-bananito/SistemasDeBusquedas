@@ -36,6 +36,7 @@
             this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaLinealEnUnArregloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,8 @@
             // 
             // ejercicio1ToolStripMenuItem
             // 
+            this.ejercicio1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaLinealEnUnArregloToolStripMenuItem});
             this.ejercicio1ToolStripMenuItem.Name = "ejercicio1ToolStripMenuItem";
             this.ejercicio1ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio1ToolStripMenuItem.Text = "Ejercicio1";
@@ -99,6 +102,13 @@
             this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
             this.busquedaToolStripMenuItem.Text = "Busqueda";
             // 
+            // búsquedaLinealEnUnArregloToolStripMenuItem
+            // 
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Name = "búsquedaLinealEnUnArregloToolStripMenuItem";
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Size = new System.Drawing.Size(352, 34);
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Text = " Búsqueda lineal en un arreglo";
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Click += new System.EventHandler(this.búsquedaLinealEnUnArregloToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -125,6 +135,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejercicio5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaLinealEnUnArregloToolStripMenuItem;
     }
 }
 

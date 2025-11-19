@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicios\BusquedaB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaB.Designer.cs">
+      <DependentUpon>BusquedaB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaL.Designer.cs">
+      <DependentUpon>BusquedaL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicios\BusquedaB.resx">
+      <DependentUpon>BusquedaB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\BusquedaL.resx">
+      <DependentUpon>BusquedaL.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +96,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Proyecto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemasDeBusquedas.Ejercicios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace SistemasDeBusquedas
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void búsquedaLinealEnUnArregloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaL().Show();
         }
     }
 }
