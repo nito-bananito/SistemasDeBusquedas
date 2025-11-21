@@ -22,7 +22,21 @@ namespace SistemasDeBusquedas.Proyecto
 
         private void Bliblioteca_Load(object sender, EventArgs e)
         {
-            
+            biblioteca.Add(new Libro { Codigo = "L001", Titulo = "Programación en C#", Autor = "Ana Pérez", Categoria = "Informática" });
+            biblioteca.Add(new Libro { Codigo = "L002", Titulo = "Algoritmos y Estructuras de Datos", Autor = "Luis Gómez", Categoria = "Informática" });
+            biblioteca.Add(new Libro { Codigo = "L003", Titulo = "Historia Universal", Autor = "Pedro Ruiz", Categoria = "Historia" });
+            biblioteca.Add(new Libro { Codigo = "L004", Titulo = "Matemáticas Básicas", Autor = "Brenda López", Categoria = "Matemáticas" });
+            biblioteca.Add(new Libro { Codigo = "L005", Titulo = "Bases de Datos Relacionales", Autor = "Carlos Ortega", Categoria = "Informática" });
+            biblioteca.Add(new Libro { Codigo = "L006", Titulo = "Inteligencia Artificial", Autor = "Elena Martínez", Categoria = "Informática" });
+            biblioteca.Add(new Libro { Codigo = "L007", Titulo = "Literatura Latinoamericana", Autor = "María Fernández", Categoria = "Literatura" });
+            biblioteca.Add(new Libro { Codigo = "L008", Titulo = "Química General", Autor = "José Ramírez", Categoria = "Ciencias" });
+            biblioteca.Add(new Libro { Codigo = "L009", Titulo = "Física Moderna", Autor = "Diego Torres", Categoria = "Ciencias" });
+            biblioteca.Add(new Libro { Codigo = "L010", Titulo = "Economía Básica", Autor = "Sofía Castillo", Categoria = "Economía" });
+            biblioteca.Add(new Libro { Codigo = "L011", Titulo = "Redes de Computadoras", Autor = "Fernando Silva", Categoria = "Informática" });
+            biblioteca.Add(new Libro { Codigo = "L012", Titulo = "Psicología General", Autor = "Laura Méndez", Categoria = "Psicología" });
+            biblioteca.Add(new Libro { Codigo = "L013", Titulo = "Derecho Constitucional", Autor = "Ricardo Herrera", Categoria = "Derecho" });
+            biblioteca.Add(new Libro { Codigo = "L014", Titulo = "Biología Celular", Autor = "Patricia Morales", Categoria = "Ciencias" });
+            biblioteca.Add(new Libro { Codigo = "L015", Titulo = "Arte Contemporáneo", Autor = "Gabriela Rivas", Categoria = "Arte" });
         }
 
         private void btnBuscarTitulo_Click(object sender, EventArgs e)
