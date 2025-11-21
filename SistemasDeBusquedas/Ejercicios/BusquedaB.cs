@@ -13,6 +13,9 @@ namespace SistemasDeBusquedas.Ejercicios
 {
     public partial class BusquedaB : Form
     {
+        /// <summary>
+        ///  Agrege el segundo ejercicio: Búsqueda Binaria en una Lista Ordenada
+        /// </summary>
         public BusquedaB()
         {
             InitializeComponent();

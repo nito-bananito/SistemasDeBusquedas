@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemasDeBusquedas.Ejercicios
 {
+    /// <summary>
+    /// Ejercicio 1 - Búsqueda lineal
+    /// </summary>
     public partial class BusquedaL : Form
     {
         private int[] datos = new int[21];

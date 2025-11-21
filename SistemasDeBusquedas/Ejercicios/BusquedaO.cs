@@ -12,6 +12,9 @@ namespace SistemasDeBusquedas.Ejercicios
 {
     public partial class BusquedaO : Form
     {
+        /// <summary>
+        /// Agrege el cuarto ejercicio: Búsqueda de objetos en una colección.
+        /// </summary>
         public BusquedaO()
         {
             InitializeComponent();
