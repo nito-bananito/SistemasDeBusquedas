@@ -49,7 +49,24 @@ namespace SistemasDeBusquedas.Proyecto
 
         private void btnBuscarAutor_Click(object sender, EventArgs e)
         {
-            
+            string autor = tbAutor.Text.ToLower();
+            var listaOrdenada = biblioteca.OrderBy(b => b.Autor).ToList();
+
+            int ini = 0, fin = listaOrdenada.Count - 1;
+            while (ini <= fin)
+            {
+                int mid = (ini + fin) / 2;
+                int cmp = string.Compare(listaOrdenada[mid].Autor.ToLower(), autor);
+
+                if (cmp == 0)
+                {
+                    dgvResultados.DataSource = new List<Libro> { listaOrdenada[mid] };
+                    lblResultado.Text = "Autor encontrado.";
+                    return;
+                }
+                if (cmp < 0) ini = mid + 1; else fin = mid - 1;
+            }
+            lblResultado.Text = "No se encontró el autor.";
         }
 
         private void btnBuscarCodigo_Click(object sender, EventArgs e)
