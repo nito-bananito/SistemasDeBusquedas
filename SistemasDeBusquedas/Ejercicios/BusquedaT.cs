@@ -12,6 +12,9 @@ namespace SistemasDeBusquedas.Ejercicios
 {
     public partial class BusquedaT : Form
     {
+        /// <summary>
+        /// Agrege el tercer ejercicio: Búsqueda de texto dentro de una cadena.
+        /// </summary>
         public BusquedaT()
         {
             InitializeComponent();
