@@ -27,5 +27,10 @@ namespace SistemasDeBusquedas
         {
             new BusquedaB().Show();
         }
+
+        private void búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaT().Show();
+        }
     }
 }

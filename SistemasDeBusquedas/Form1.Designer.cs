@@ -38,6 +38,8 @@
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,12 +86,16 @@
             // 
             // ejercicio3ToolStripMenuItem
             // 
+            this.ejercicio3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem});
             this.ejercicio3ToolStripMenuItem.Name = "ejercicio3ToolStripMenuItem";
             this.ejercicio3ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio3ToolStripMenuItem.Text = "Ejercicio3";
             // 
             // ejercicio4ToolStripMenuItem
             // 
+            this.ejercicio4ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem});
             this.ejercicio4ToolStripMenuItem.Name = "ejercicio4ToolStripMenuItem";
             this.ejercicio4ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio4ToolStripMenuItem.Text = "Ejercicio4";
@@ -119,6 +125,19 @@
             this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Text = " Búsqueda binaria en una lista ordenada";
             this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem_Click);
             // 
+            // búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem
+            // 
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Name = "búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem";
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Size = new System.Drawing.Size(445, 34);
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Text = "Búsqueda de texto dentro de una cadena ";
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem_Click);
+            // 
+            // búsquedaDeObjetosEnUnaColecciónToolStripMenuItem
+            // 
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Name = "búsquedaDeObjetosEnUnaColecciónToolStripMenuItem";
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Size = new System.Drawing.Size(423, 34);
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Text = "Búsqueda de objetos en una colección ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -147,6 +166,8 @@
         private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaLinealEnUnArregloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaDeObjetosEnUnaColecciónToolStripMenuItem;
     }
 }
 

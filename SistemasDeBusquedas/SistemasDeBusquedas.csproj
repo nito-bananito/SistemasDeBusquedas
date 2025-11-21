@@ -58,6 +58,18 @@
     <Compile Include="Ejercicios\BusquedaL.Designer.cs">
       <DependentUpon>BusquedaL.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios\BusquedaO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaO.Designer.cs">
+      <DependentUpon>BusquedaO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\BusquedaT.Designer.cs">
+      <DependentUpon>BusquedaT.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +83,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\BusquedaL.resx">
       <DependentUpon>BusquedaL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\BusquedaO.resx">
+      <DependentUpon>BusquedaO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\BusquedaT.resx">
+      <DependentUpon>BusquedaT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
