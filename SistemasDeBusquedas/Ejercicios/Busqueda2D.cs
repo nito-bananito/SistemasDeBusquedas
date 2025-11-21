@@ -13,6 +13,9 @@ namespace SistemasDeBusquedas.Ejercicios
 {
     public partial class Busqueda2D : Form
     {
+        /// <summary>
+        /// Agrege el sexto ejercicio: Búsqueda en Matriz 2D.
+        /// </summary>
         public Busqueda2D()
         {
             InitializeComponent();
