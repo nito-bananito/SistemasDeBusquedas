@@ -32,5 +32,15 @@ namespace SistemasDeBusquedas
         {
             new BusquedaT().Show();
         }
+
+        private void búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaO().Show();
+        }
+
+        private void búsquedaDelValorMáximoYMínimoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new MaxMin().Show();
+        }
     }
 }

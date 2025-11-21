@@ -40,6 +40,7 @@
             this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +103,8 @@
             // 
             // ejercicio5ToolStripMenuItem
             // 
+            this.ejercicio5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem});
             this.ejercicio5ToolStripMenuItem.Name = "ejercicio5ToolStripMenuItem";
             this.ejercicio5ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio5ToolStripMenuItem.Text = "Ejercicio5";
@@ -137,6 +140,14 @@
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Name = "búsquedaDeObjetosEnUnaColecciónToolStripMenuItem";
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Size = new System.Drawing.Size(423, 34);
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Text = "Búsqueda de objetos en una colección ";
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click);
+            // 
+            // búsquedaDelValorMáximoYMínimoToolStripMenuItem
+            // 
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Name = "búsquedaDelValorMáximoYMínimoToolStripMenuItem";
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Size = new System.Drawing.Size(419, 34);
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Text = "Búsqueda del valor máximo y mínimo ";
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDelValorMáximoYMínimoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -168,6 +179,7 @@
         private System.Windows.Forms.ToolStripMenuItem búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaDeObjetosEnUnaColecciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaDelValorMáximoYMínimoToolStripMenuItem;
     }
 }
 
