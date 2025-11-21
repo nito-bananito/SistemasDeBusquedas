@@ -79,7 +79,10 @@ namespace SistemasDeBusquedas.Proyecto
 
         private void btnBuscarCategoria_Click(object sender, EventArgs e)
         {
-          
+            string categoria = cbCategoria.Text;
+            var resultados = biblioteca.Where(b => b.Categoria == categoria).ToList();
+            dgvResultados.DataSource = resultados;
+            lblResultado.Text = resultados.Count > 0 ? "Libros encontrados." : "No se encontraron libros en esa categoría.";
         }
     }
 }
