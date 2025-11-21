@@ -32,16 +32,17 @@
             this.ejercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaLinealEnUnArregloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDelValorMáximoYMínimoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaEnMatriz2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,6 +87,13 @@
             this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio2ToolStripMenuItem.Text = "Ejercicio2";
             // 
+            // búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem
+            // 
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Name = "búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem";
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Size = new System.Drawing.Size(430, 34);
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Text = " Búsqueda binaria en una lista ordenada";
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem_Click);
+            // 
             // ejercicio3ToolStripMenuItem
             // 
             this.ejercicio3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -93,6 +101,13 @@
             this.ejercicio3ToolStripMenuItem.Name = "ejercicio3ToolStripMenuItem";
             this.ejercicio3ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio3ToolStripMenuItem.Text = "Ejercicio3";
+            // 
+            // búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem
+            // 
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Name = "búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem";
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Size = new System.Drawing.Size(445, 34);
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Text = "Búsqueda de texto dentro de una cadena ";
+            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem_Click);
             // 
             // ejercicio4ToolStripMenuItem
             // 
@@ -102,6 +117,13 @@
             this.ejercicio4ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio4ToolStripMenuItem.Text = "Ejercicio4";
             // 
+            // búsquedaDeObjetosEnUnaColecciónToolStripMenuItem
+            // 
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Name = "búsquedaDeObjetosEnUnaColecciónToolStripMenuItem";
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Size = new System.Drawing.Size(423, 34);
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Text = "Búsqueda de objetos en una colección ";
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click);
+            // 
             // ejercicio5ToolStripMenuItem
             // 
             this.ejercicio5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,6 +131,13 @@
             this.ejercicio5ToolStripMenuItem.Name = "ejercicio5ToolStripMenuItem";
             this.ejercicio5ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio5ToolStripMenuItem.Text = "Ejercicio5";
+            // 
+            // búsquedaDelValorMáximoYMínimoToolStripMenuItem
+            // 
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Name = "búsquedaDelValorMáximoYMínimoToolStripMenuItem";
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Size = new System.Drawing.Size(419, 34);
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Text = "Búsqueda del valor máximo y mínimo ";
+            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDelValorMáximoYMínimoToolStripMenuItem_Click);
             // 
             // ejercicio6ToolStripMenuItem
             // 
@@ -118,46 +147,27 @@
             this.ejercicio6ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio6ToolStripMenuItem.Text = "Ejercicio6";
             // 
-            // busquedaToolStripMenuItem
-            // 
-            this.busquedaToolStripMenuItem.Name = "busquedaToolStripMenuItem";
-            this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
-            this.busquedaToolStripMenuItem.Text = "Busqueda";
-            // 
-            // búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem
-            // 
-            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Name = "búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem";
-            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Size = new System.Drawing.Size(430, 34);
-            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Text = " Búsqueda binaria en una lista ordenada";
-            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem_Click);
-            // 
-            // búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem
-            // 
-            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Name = "búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem";
-            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Size = new System.Drawing.Size(445, 34);
-            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Text = "Búsqueda de texto dentro de una cadena ";
-            this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem_Click);
-            // 
-            // búsquedaDeObjetosEnUnaColecciónToolStripMenuItem
-            // 
-            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Name = "búsquedaDeObjetosEnUnaColecciónToolStripMenuItem";
-            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Size = new System.Drawing.Size(423, 34);
-            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Text = "Búsqueda de objetos en una colección ";
-            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click);
-            // 
-            // búsquedaDelValorMáximoYMínimoToolStripMenuItem
-            // 
-            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Name = "búsquedaDelValorMáximoYMínimoToolStripMenuItem";
-            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Size = new System.Drawing.Size(419, 34);
-            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Text = "Búsqueda del valor máximo y mínimo ";
-            this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDelValorMáximoYMínimoToolStripMenuItem_Click);
-            // 
             // búsquedaEnMatriz2DToolStripMenuItem
             // 
             this.búsquedaEnMatriz2DToolStripMenuItem.Name = "búsquedaEnMatriz2DToolStripMenuItem";
             this.búsquedaEnMatriz2DToolStripMenuItem.Size = new System.Drawing.Size(308, 34);
             this.búsquedaEnMatriz2DToolStripMenuItem.Text = " Búsqueda en matriz 2D ";
             this.búsquedaEnMatriz2DToolStripMenuItem.Click += new System.EventHandler(this.búsquedaEnMatriz2DToolStripMenuItem_Click);
+            // 
+            // busquedaToolStripMenuItem
+            // 
+            this.busquedaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem});
+            this.busquedaToolStripMenuItem.Name = "busquedaToolStripMenuItem";
+            this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
+            this.busquedaToolStripMenuItem.Text = "Busqueda";
+            // 
+            // sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem
+            // 
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem.Name = "sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem";
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem.Size = new System.Drawing.Size(596, 34);
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem.Text = "“Sistemas de Búsqueda para una Biblioteca Digital Estudiantil";
+            this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem.Click += new System.EventHandler(this.sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -191,6 +201,7 @@
         private System.Windows.Forms.ToolStripMenuItem búsquedaDeObjetosEnUnaColecciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaDelValorMáximoYMínimoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaEnMatriz2DToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem;
     }
 }
 

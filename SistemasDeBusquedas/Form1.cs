@@ -1,4 +1,5 @@
 ﻿using SistemasDeBusquedas.Ejercicios;
+using SistemasDeBusquedas.Proyecto;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -46,6 +47,11 @@ namespace SistemasDeBusquedas
         private void búsquedaEnMatriz2DToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new Busqueda2D().Show();
+        }
+
+        private void sistemasDeBúsquedaParaUnaBibliotecaDigitalEstudiantilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Bliblioteca().Show();
         }
     }
 }
