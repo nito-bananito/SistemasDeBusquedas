@@ -41,7 +41,10 @@ namespace SistemasDeBusquedas.Proyecto
 
         private void btnBuscarTitulo_Click(object sender, EventArgs e)
         {
-            
+            string titulo = tbTitulo.Text.ToLower();
+            var resultados = biblioteca.Where(b => b.Titulo.ToLower().Contains(titulo)).ToList();
+            dgvResultados.DataSource = resultados;
+            lblResultado.Text = resultados.Count > 0 ? "Libros encontrados." : "No se encontró ningún libro.";
         }
 
         private void btnBuscarAutor_Click(object sender, EventArgs e)
