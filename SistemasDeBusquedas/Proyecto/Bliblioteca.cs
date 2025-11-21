@@ -71,7 +71,10 @@ namespace SistemasDeBusquedas.Proyecto
 
         private void btnBuscarCodigo_Click(object sender, EventArgs e)
         {
-           
+            string codigo = tbCodigo.Text;
+            var libro = biblioteca.FirstOrDefault(b => b.Codigo == codigo);
+            dgvResultados.DataSource = libro != null ? new List<Libro> { libro } : null;
+            lblResultado.Text = libro != null ? "Libro encontrado." : "No existe ese código.";
         }
 
         private void btnBuscarCategoria_Click(object sender, EventArgs e)
