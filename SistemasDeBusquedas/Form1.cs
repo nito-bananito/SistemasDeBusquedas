@@ -42,5 +42,10 @@ namespace SistemasDeBusquedas
         {
             new MaxMin().Show();
         }
+
+        private void búsquedaEnMatriz2DToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Busqueda2D().Show();
+        }
     }
 }

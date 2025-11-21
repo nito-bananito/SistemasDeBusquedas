@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicios\Busqueda2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Busqueda2D.Designer.cs">
+      <DependentUpon>Busqueda2D.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicios\BusquedaB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicios\Busqueda2D.resx">
+      <DependentUpon>Busqueda2D.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\BusquedaB.resx">
       <DependentUpon>BusquedaB.cs</DependentUpon>
     </EmbeddedResource>

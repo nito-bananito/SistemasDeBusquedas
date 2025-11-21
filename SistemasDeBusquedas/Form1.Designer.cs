@@ -41,6 +41,7 @@
             this.búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.búsquedaDelValorMáximoYMínimoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaEnMatriz2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,6 +112,8 @@
             // 
             // ejercicio6ToolStripMenuItem
             // 
+            this.ejercicio6ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaEnMatriz2DToolStripMenuItem});
             this.ejercicio6ToolStripMenuItem.Name = "ejercicio6ToolStripMenuItem";
             this.ejercicio6ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio6ToolStripMenuItem.Text = "Ejercicio6";
@@ -149,6 +152,13 @@
             this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Text = "Búsqueda del valor máximo y mínimo ";
             this.búsquedaDelValorMáximoYMínimoToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDelValorMáximoYMínimoToolStripMenuItem_Click);
             // 
+            // búsquedaEnMatriz2DToolStripMenuItem
+            // 
+            this.búsquedaEnMatriz2DToolStripMenuItem.Name = "búsquedaEnMatriz2DToolStripMenuItem";
+            this.búsquedaEnMatriz2DToolStripMenuItem.Size = new System.Drawing.Size(308, 34);
+            this.búsquedaEnMatriz2DToolStripMenuItem.Text = " Búsqueda en matriz 2D ";
+            this.búsquedaEnMatriz2DToolStripMenuItem.Click += new System.EventHandler(this.búsquedaEnMatriz2DToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -180,6 +190,7 @@
         private System.Windows.Forms.ToolStripMenuItem búsquedaDeTextoDentroDeUnaCadenaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaDeObjetosEnUnaColecciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaDelValorMáximoYMínimoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaEnMatriz2DToolStripMenuItem;
     }
 }
 
