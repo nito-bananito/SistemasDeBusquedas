@@ -30,13 +30,14 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ejercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaLinealEnUnArregloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.búsquedaLinealEnUnArregloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,8 +67,17 @@
             this.ejercicio1ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio1ToolStripMenuItem.Text = "Ejercicio1";
             // 
+            // búsquedaLinealEnUnArregloToolStripMenuItem
+            // 
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Name = "búsquedaLinealEnUnArregloToolStripMenuItem";
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Size = new System.Drawing.Size(352, 34);
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Text = " Búsqueda lineal en un arreglo";
+            this.búsquedaLinealEnUnArregloToolStripMenuItem.Click += new System.EventHandler(this.búsquedaLinealEnUnArregloToolStripMenuItem_Click);
+            // 
             // ejercicio2ToolStripMenuItem
             // 
+            this.ejercicio2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem});
             this.ejercicio2ToolStripMenuItem.Name = "ejercicio2ToolStripMenuItem";
             this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.ejercicio2ToolStripMenuItem.Text = "Ejercicio2";
@@ -102,12 +112,12 @@
             this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
             this.busquedaToolStripMenuItem.Text = "Busqueda";
             // 
-            // búsquedaLinealEnUnArregloToolStripMenuItem
+            // búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem
             // 
-            this.búsquedaLinealEnUnArregloToolStripMenuItem.Name = "búsquedaLinealEnUnArregloToolStripMenuItem";
-            this.búsquedaLinealEnUnArregloToolStripMenuItem.Size = new System.Drawing.Size(352, 34);
-            this.búsquedaLinealEnUnArregloToolStripMenuItem.Text = " Búsqueda lineal en un arreglo";
-            this.búsquedaLinealEnUnArregloToolStripMenuItem.Click += new System.EventHandler(this.búsquedaLinealEnUnArregloToolStripMenuItem_Click);
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Name = "búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem";
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Size = new System.Drawing.Size(430, 34);
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Text = " Búsqueda binaria en una lista ordenada";
+            this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -136,6 +146,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejercicio6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem búsquedaLinealEnUnArregloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem;
     }
 }
 

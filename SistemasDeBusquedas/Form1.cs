@@ -22,5 +22,10 @@ namespace SistemasDeBusquedas
         {
             new BusquedaL().Show();
         }
+
+        private void búsquedaBinariaEnUnaListaOrdenadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaB().Show();
+        }
     }
 }
