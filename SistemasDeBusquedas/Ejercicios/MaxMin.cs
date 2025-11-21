@@ -12,6 +12,9 @@ namespace SistemasDeBusquedas.Ejercicios
 {
     public partial class MaxMin : Form
     {
+        /// <summary>
+        /// Agrege el quinto ejercicio: Búsqueda del valor máximo y mínimo en una lista de números enteros.
+        /// </summary>
         public MaxMin()
         {
             InitializeComponent();
