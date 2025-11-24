@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Libro.cs" />
+    <Compile Include="Clases\Program.cs" />
     <Compile Include="Ejercicios\Busqueda2D.cs">
       <SubType>Form</SubType>
     </Compile>
