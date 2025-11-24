@@ -35,13 +35,13 @@
             this.btnBuscarTitulo = new System.Windows.Forms.Button();
             this.btnBuscarAutor = new System.Windows.Forms.Button();
             this.btnBuscarCodigo = new System.Windows.Forms.Button();
-            this.btnBuscarCategoria = new System.Windows.Forms.Button();
             this.dgvResultados = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnBuscarCategoria = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,9 +76,9 @@
             // 
             // btnBuscarTitulo
             // 
-            this.btnBuscarTitulo.Location = new System.Drawing.Point(272, 8);
+            this.btnBuscarTitulo.Location = new System.Drawing.Point(272, 0);
             this.btnBuscarTitulo.Name = "btnBuscarTitulo";
-            this.btnBuscarTitulo.Size = new System.Drawing.Size(147, 29);
+            this.btnBuscarTitulo.Size = new System.Drawing.Size(147, 38);
             this.btnBuscarTitulo.TabIndex = 4;
             this.btnBuscarTitulo.Text = "Buscar titulo";
             this.btnBuscarTitulo.UseVisualStyleBackColor = true;
@@ -86,9 +86,9 @@
             // 
             // btnBuscarAutor
             // 
-            this.btnBuscarAutor.Location = new System.Drawing.Point(272, 44);
+            this.btnBuscarAutor.Location = new System.Drawing.Point(272, 39);
             this.btnBuscarAutor.Name = "btnBuscarAutor";
-            this.btnBuscarAutor.Size = new System.Drawing.Size(147, 27);
+            this.btnBuscarAutor.Size = new System.Drawing.Size(147, 36);
             this.btnBuscarAutor.TabIndex = 5;
             this.btnBuscarAutor.Text = "Buscar autor";
             this.btnBuscarAutor.UseVisualStyleBackColor = true;
@@ -96,35 +96,25 @@
             // 
             // btnBuscarCodigo
             // 
-            this.btnBuscarCodigo.Location = new System.Drawing.Point(208, 81);
+            this.btnBuscarCodigo.Location = new System.Drawing.Point(272, 81);
             this.btnBuscarCodigo.Name = "btnBuscarCodigo";
-            this.btnBuscarCodigo.Size = new System.Drawing.Size(147, 27);
+            this.btnBuscarCodigo.Size = new System.Drawing.Size(147, 42);
             this.btnBuscarCodigo.TabIndex = 6;
             this.btnBuscarCodigo.Text = "Buscar codigo";
             this.btnBuscarCodigo.UseVisualStyleBackColor = true;
             this.btnBuscarCodigo.Click += new System.EventHandler(this.btnBuscarCodigo_Click);
-            // 
-            // btnBuscarCategoria
-            // 
-            this.btnBuscarCategoria.Location = new System.Drawing.Point(232, 114);
-            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
-            this.btnBuscarCategoria.Size = new System.Drawing.Size(147, 31);
-            this.btnBuscarCategoria.TabIndex = 7;
-            this.btnBuscarCategoria.Text = "Buscar categoria";
-            this.btnBuscarCategoria.UseVisualStyleBackColor = true;
-            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
             // 
             // dgvResultados
             // 
             this.dgvResultados.AllowUserToAddRows = false;
             this.dgvResultados.AllowUserToDeleteRows = false;
             this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvResultados.Location = new System.Drawing.Point(14, 196);
+            this.dgvResultados.Location = new System.Drawing.Point(12, 201);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.ReadOnly = true;
             this.dgvResultados.RowHeadersWidth = 62;
             this.dgvResultados.RowTemplate.Height = 28;
-            this.dgvResultados.Size = new System.Drawing.Size(465, 242);
+            this.dgvResultados.Size = new System.Drawing.Size(465, 375);
             this.dgvResultados.TabIndex = 8;
             // 
             // label1
@@ -157,7 +147,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(13, 173);
+            this.lblResultado.Location = new System.Drawing.Point(8, 178);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(51, 20);
             this.lblResultado.TabIndex = 12;
@@ -172,11 +162,21 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Categoria";
             // 
+            // btnBuscarCategoria
+            // 
+            this.btnBuscarCategoria.Location = new System.Drawing.Point(272, 129);
+            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
+            this.btnBuscarCategoria.Size = new System.Drawing.Size(147, 40);
+            this.btnBuscarCategoria.TabIndex = 7;
+            this.btnBuscarCategoria.Text = "Buscar categoria";
+            this.btnBuscarCategoria.UseVisualStyleBackColor = true;
+            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
+            // 
             // Bliblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 450);
+            this.ClientSize = new System.Drawing.Size(489, 588);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label3);
@@ -209,12 +209,12 @@
         private System.Windows.Forms.Button btnBuscarTitulo;
         private System.Windows.Forms.Button btnBuscarAutor;
         private System.Windows.Forms.Button btnBuscarCodigo;
-        private System.Windows.Forms.Button btnBuscarCategoria;
         private System.Windows.Forms.DataGridView dgvResultados;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnBuscarCategoria;
     }
 }
