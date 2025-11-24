@@ -14,4 +14,4 @@
 ## ⚙️ Instrucciones de uso
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/biblioteca-busqueda.git
+   https://github.com/nito-bananito/SistemasDeBusquedas.git
